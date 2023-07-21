@@ -1,0 +1,3 @@
+## Homework
+
+Get password input from the user and if the password is wrong, ask the user if he/she can reset his/her password, if the user wants to reset it, check that the new password must not be the same as the password he entered incorrectly and forgot, and if the passwords are the same, print "The password could not be created, please enter another password", otherwise, write the program that says "Password created".
