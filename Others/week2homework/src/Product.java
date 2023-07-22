@@ -5,8 +5,9 @@ public class Product {
 
     // constructor
     public Product(int id, String name, double price) {
-        this.id = id;       // creates a new Product object
-        this.name = name;   // creates a new Product object
-        this.price = price; // creates a new Product object
+        // creates new Product objects
+        this.id = id;       
+        this.name = name;   
+        this.price = price; 
     }
 }
