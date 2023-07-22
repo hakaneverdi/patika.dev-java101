@@ -8,8 +8,9 @@ class SmartPhone extends Phone {
      // constructor
     public SmartPhone(int id, String name, double price, String phoneNumber, int storage, int ram, int camera) {
         super(id, name, price, phoneNumber); // inheritance by Phone class
-        this.storage = storage; // creates a new Smartphone object
-        this.ram = ram;         // creates a new Smartphone object
-        this.camera = camera;   // creates a new Smartphone object
+        // creates new Smartphone objects
+        this.storage = storage; 
+        this.ram = ram;         
+        this.camera = camera;   
     }
 }
